@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3515/3515293.png" type="image/x-icon">
+    <title>Manejo de Aplicaciones</title>
+</head>
+
+
+<body>
+    <body background="fondo1.jpg" bgcolor="F3D1F4"> <!--Color al fondo--></body>
+    
+    <!-- inicio de la cabecera -->
+    <header>
+        <h1>Manejo de Aplicaciones</h1>
+    </header>
+    <!-- fin de la cabecera -->
+
+
+
+    <!-- inicio del menú de navegación -->
+    <div class="nav-bg">
+        <nav class="Aplicaciones">
+            <a href="#">Inicio</a>
+            <a href="#pseint">PSeint</a>
+            <a href="#oracle">Oracle VirtualBox</a>
+            <a href="#videoscribe">VideoScribe</a>
+            <a href="#python">Python</a>
+            <a href="#codeblocks">CodeBlocks</a>
+
+        
+        </nav>
+    </div>
+    <!-- fin del menú de navegación -->
+
+
+
+    <!-- inicio de la sección principal de la página web -->
+    <main class="contendor sombra" id="Aplicaciones">
+
+
+        <!-- inicio de la sección de mis aplicaciones-->
+        <div class="apps">
+
+            <!-- inicio de la secccion psseint -->
+            <section class="app" id="pseint">
+                <h2>PSeint</h2>
+                <div class="imagen">
+                    
+                    <img src="data:image/png;base64,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" alt="pseintimg">
+            
+                </div>
+                <form>
+                    <p class="estrellas">
+                      <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                      --><label for="radio1">★</label><!--
+                      --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                      --><label for="radio2">★</label><!--
+                      --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                      --><label for="radio3">★</label><!--
+                      --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                      --><label for="radio4">★</label><!--
+                      --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                      --><label for="radio5">★</label>
+                    </p>
+                  </form>
+    
+        
+        
+            </section>
+            <!-- fin de la sección pseint-->
+
+             <!-- inicio de la secccion Oracle -->
+             <section class="app" id="oracle">
+                <h2>Oracle Virtual Box</h2>
+                <div class="imagen">
+                    
+                    <img src="https://cdn.worldvectorlogo.com/logos/virtualbox.svg"  width="128" height="128" alt="oracleimg">
+            
+                </div>
+                <form>
+                    <p class="estrellas">
+                      <input id="radio6" type="radio" name="estrellas" value="5"><!--
+                      --><label for="radio6">★</label><!--
+                      --><input id="radio7" type="radio" name="estrellas" value="4"><!--
+                      --><label for="radio7">★</label><!--
+                      --><input id="radio8" type="radio" name="estrellas" value="3"><!--
+                      --><label for="radio8">★</label><!--
+                      --><input id="radio9" type="radio" name="estrellas" value="2"><!--
+                      --><label for="radio9">★</label><!--
+                      --><input id="radio10" type="radio" name="estrellas" value="1"><!--
+                      --><label for="radio10">★</label>
+                    </p>
+                  </form>
+    
+        
+        
+            </section>
+             
+            <!-- fin de la sección Oracle -->
+
+            <!-- inicio de la video scribe -->
+
+            <section class="app" id="videoscribe">
+                <h2>VideoScribe</h2>
+                <div class="imagen">
+                    
+                    <img src="https://www.freelogovectors.net/svg08/videoscribe-logo.svg"  width="128" height="128" alt="scribimg">
+            
+                </div>
+                <form>
+                    <p class="estrellas">
+                      <input id="radio11" type="radio" name="estrellas" value="5"><!--
+                      --><label for="radio11">★</label><!--
+                      --><input id="radio12" type="radio" name="estrellas" value="4"><!--
+                      --><label for="radio12">★</label><!--
+                      --><input id="radio13" type="radio" name="estrellas" value="3"><!--
+                      --><label for="radio13">★</label><!--
+                      --><input id="radio14" type="radio" name="estrellas" value="2"><!--
+                      --><label for="radio14">★</label><!--
+                      --><input id="radio15" type="radio" name="estrellas" value="1"><!--
+                      --><label for="radio15">★</label>
+                    </p>
+                  </form>
+    
+        
+        
+            </section>
+
+             
+            <!-- fin de la sección video scribe-->
+
+            <!-- inicio de la seccion  Python -->
+            
+            <section class="app" id="python">
+                <h2>Python</h2>
+                <div class="imagen">
+                    
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"  width="128" height="128" alt="pythonimg">
+            
+                </div>
+                <form>
+                    <p class="estrellas">
+                      <input id="radio16" type="radio" name="estrellas" value="5"><!--
+                      --><label for="radio16">★</label><!--
+                      --><input id="radio17" type="radio" name="estrellas" value="4"><!--
+                      --><label for="radio17">★</label><!--
+                      --><input id="radio18" type="radio" name="estrellas" value="3"><!--
+                      --><label for="radio18">★</label><!--
+                      --><input id="radio19" type="radio" name="estrellas" value="2"><!--
+                      --><label for="radio19">★</label><!--
+                      --><input id="radio20" type="radio" name="estrellas" value="1"><!--
+                      --><label for="radio20">★</label>
+                    </p>
+                  </form>
+    
+        
+        
+            </section>
+
+            <!-- fin de la seccion Python -->
+
+            <!-- Inicio de la seccion  CodeBlocks-->
+
+            <section class="app" id="Codeblocks">
+                <h2>CodeBlocks</h2>
+                <div class="imagen">
+                    
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Breezeicons-apps-48-codeblocks.svg/1024px-Breezeicons-apps-48-codeblocks.svg.png"  width="128" height="128" alt="codeBlocksimg">
+            
+                </div>
+                <form>
+                    <p class="estrellas">
+                      <input id="radio21" type="radio" name="estrellas" value="5"><!--
+                      --><label for="radio21">★</label><!--
+                      --><input id="radio22" type="radio" name="estrellas" value="4"><!--
+                      --><label for="radio22">★</label><!--
+                      --><input id="radio23" type="radio" name="estrellas" value="3"><!--
+                      --><label for="radio3">★</label><!--
+                      --><input id="radio24" type="radio" name="estrellas" value="2"><!--
+                      --><label for="radio24">★</label><!--
+                      --><input id="radio25" type="radio" name="estrellas" value="1"><!--
+                      --><label for="radio25">★</label>
+                    </p>
+                  </form>
+    
+        
+        
+            </section>            
+            
+            <!-- FIn de la seccion  CodeBlocks-->
+
+
+        </div>
+        <!-- fin de la sección de mis aplicaciones -->
+
+
+    </main>
+    <!-- fin de la sección principal de la página web-->
+
+
+    <!-- inicio de la sección pie de página--> 
+    <footer class="footer">
+        <p>Todos los derechos reseervados - Grupo 5 &#169;</p>
+    </footer>
+    <!-- fin de la sección pie de página--> 
+    <a href="/index.html">Regresar</a>
+</body>
+
+
+</html>
